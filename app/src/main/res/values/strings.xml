@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+
+    <string name="now_playing">
+        1. Purpose - Details of current song with album art.\n2. Challenges - a) Implement various Media Player interfaces and methods for the buttons shown below. b) Toggle between play and pause states using single play button\n3. Solution - a) Use the standard media player object to manage Media resource.
+    </string>
+
+    <string name="music_library">
+        1. Purpose - Group music in library by various categories.\n2. Challenges - a) Access storage and group music by category.b) Load Now Playing Screen upon user selecting a song.\n3. Solution - a) Leverage user permissions in AndroidManifest.xml to access storage. b) Using OnClickListener to access the song from above folder structure. Upon user selecting a song use OnClick Listener to schedule Now Playing. Send an intent to the musicplayer resource with the audio file.
+    </string>
+
+    <string name="search">
+        1. Purpose - Provide ability to search songs on device and online.\n2. Challenges - a) Implement search function based on user inputs and display results. b) Schedule Now Playing if user selects song on the device whereas schedule Store if user selects an online song from search result. c) For online songs, fetch results by querying any of the popular APIs\n3. Solution - a) Query internal storage and search for results. b) Use OnClick Listener to pass an intent to Now Playing or Store based on user selection.
+    </string>
+
+    <string name="store">
+        1. Purpose - Categorize trending songs in the above categories g.\n2. Challenges - a) Implement using an online API and show results in each category with Album Art and price b) More button in each category will be used to display more related results c) Implement payment processing if user wants to buy something \n3. Solution - a) Based on screen size, fetch limited results in each category. b) Use OnclickListener on More button if User clicks More button. Load more number of relevant results for that category. c) Implement Payment workflow using Android Pay or Credit Card Payment. Create an indexfile for the songs that the user has purchased.
+    </string>
+</resources>

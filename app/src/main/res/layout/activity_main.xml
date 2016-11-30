@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalstructure.MainActivity">
+
+    <TextView
+        android:id="@+id/nowPlaying"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="#FD8E09"
+        android:padding="30dp"
+        android:text="Now Playing"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/musicLibrary"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="#379237"
+        android:padding="30dp"
+        android:text="Music Library"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="#8800A0"
+        android:padding="30dp"
+        android:text="Search"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/buyMusicOnline"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="#16AFCA"
+        android:padding="30dp"
+        android:text="Store"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</LinearLayout>
